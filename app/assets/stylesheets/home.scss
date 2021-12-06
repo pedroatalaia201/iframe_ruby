@@ -1,0 +1,22 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.bottom_home {
+  background-color: blank;
+  border: 0.1rem solid rgb(209, 55, 55);
+  border-radius: 8px;
+
+  width: 13%;
+  height: 18%;
+
+  align-content: center;
+}
+
+.bottom_home:hover {
+  background-color: rgb(209, 55, 55);
+
+  a {
+    color: #fff;
+  }
+}

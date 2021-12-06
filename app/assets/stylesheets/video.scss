@@ -1,0 +1,72 @@
+// Place all the styles related to the video controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.list_videos {
+  list-style: none;
+  display: grid;
+  grid-column: auto;
+}
+
+.video_field {
+  border: 0.2rem solid #fff;
+  border-radius: 8px;
+
+  background-color: blank;
+
+  align-content: center;
+  padding: auto;
+  margin: 0.7rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+
+  width: 600px;
+  height: 390px;
+}
+
+.video_title {
+  font-size: 1.6rem;
+  text-align: center;
+
+  margin-bottom: 0.1rem;
+}
+
+.video_show {
+  margin-left: 1.1rem;
+}
+
+.form_input {
+  border: 0.1rem solid #fff;
+  border-radius: 8px;
+
+  width: 30%;
+  height: 15%;
+
+  //background-color: #181616d8;
+  background-color: transparent;
+  color: #fff;
+}
+
+.bottom {
+  width: 5rem;
+  height: 2.5rem;
+
+  text-align: center;
+  font-size: 1.3rem;
+  color: #fff;
+
+  background-color: transparent;
+  border: 0.1rem solid rgb(209, 55, 55);
+  border-radius: 8px;
+}
+.bottom:hover {
+  background-color: rgb(209, 55, 55);
+}
+
+.link_home {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.link_home:hover {
+  color: rgb(209, 55, 55);
+}

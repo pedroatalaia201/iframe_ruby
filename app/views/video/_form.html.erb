@@ -1,0 +1,19 @@
+<h3>Add the YouTube links </h3>
+<br>
+<%= form_for @video, url: video_index_path, html: {class: "form"} do |item| %>
+  <div class = "field" >
+    <%= item.label :tile, 'Title of the video', class: 'form_label' %>
+    <%= item.text_field :title, class: 'form_input' %>
+  </div>
+  <div class = "field" >
+    <%= item.label :link, 'Link of the video', class: 'form_label' %>
+    <%= item.text_field :link, class: 'form_input' %>
+  </div>
+  <div class = "form_bottom" >
+    <%= item.submit 'Enviar', :class => 'bottom' %>
+  </div>
+<% end %>
+<br>
+<div class = "link_to_home">
+  <%= link_to '< voltar', root_path(), class: "link_home" %>
+</div>

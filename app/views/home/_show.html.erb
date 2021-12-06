@@ -1,0 +1,15 @@
+<div class = "container">
+  <ul class = "list_videos">
+    <% @video.each do |item| %>
+      <li>
+        <div class = "video_field">
+          <p class = "video_title"> <%= item.title %> </p>
+          <iframe width="560" height="315" class = "video_show" src = <%= item.get_embed_code %> allowfullscreen></iframe>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
+<!--
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RvFQuwJbVc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
